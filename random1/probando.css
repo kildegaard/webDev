@@ -1,0 +1,11 @@
+* {
+    background-color: blueviolet;
+}
+
+h1 {
+    color: #170caf;
+}
+
+h1 + h2 {
+    color: green;
+}
