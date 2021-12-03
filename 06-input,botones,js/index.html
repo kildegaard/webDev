@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Probando inputs</title>
+</head>
+
+<body>
+    <h1>Ejemplo de utilizar un input</h1>
+    <p>En HTML tenemos que agregar una etiqueta de <em>input</em> para poder ingresar información.</p>
+
+    <p id='textito'>Textito para ser llamado dentro de la función</p>
+
+    <p>Vamos a hacer eso a continuación:</p>
+    <button onclick="cambiar_parrafo()">Hacer aparecer el input</button>
+    <br><br>
+    <input id="soy-input" type="text" placeholder="Ingrese aquí..." style="display: none;" oninput="funcion(this.value)"
+        on>
+
+    <!-- Sección Scripts de JS -->
+    <script>
+        function cambiar_parrafo() {
+            document.getElementById("soy-input").style.display = 'block'
+
+            var texto = document.getElementById("textito").innerText;
+            console.log(texto);
+        };
+
+        function funcion(valor) {
+            document.getElementById("textito").innerText = valor;
+        };
+    </script>
+</body>
+
+</html>

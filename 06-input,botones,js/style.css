@@ -1,0 +1,17 @@
+body {
+    background-color: grey;
+}
+
+input {
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: green;
+}
+
+#textito {
+    
+    border: solid 2px aquamarine;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 2px 5px;
+}
