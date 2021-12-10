@@ -1,0 +1,34 @@
+/* Archivito css principal */
+
+body {
+    background-color: grey;
+    font-family: cursive;
+}
+main {
+    background-color: lightyellow;
+    border: 2px dashed red;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+h1 {
+    color: grey;
+}
+
+h2 {
+    color: lightgray;
+}
+
+li {
+    font-size: 16px;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+ul:nth-of-type(1) li:nth-child(3) {
+    color: royalblue;
+    font-weight: bold;
+    background-color: #f0f;
+}
