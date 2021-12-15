@@ -1,7 +1,7 @@
 /* Hoja de estilos ppal */
 
 body {
-    background-color: lightgrey;
+    background-color: whitesmoke;
 }
 
 main {
@@ -10,16 +10,63 @@ main {
     margin: 0 auto;
 }
 
+/* Artículo */
 .contenido h1,
 .contenido h2,
 .contenido h3 {
-    font-size: 45px;
+    font-size: 40px;
+    font-weight: normal;
 }
 
+/* Iconos */
 .icono-bn {
     filter: saturate(0);
 }
 
 .iconos p {
+    font-size: 17px;
     font-weight: 600;
+    margin-bottom: 0;
+}
+
+.iconos img {
+    margin-right:40px;
+    height: 80px;
+    width: 80px;
+}
+
+.iconos img:last-child {
+    margin-right: 0;
+}
+
+/* Resto */
+.resto {
+    margin-top: 30px;
+}
+
+.resto a {
+    font-family: monospace;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    background: goldenrod;
+    border: 3px solid orange;
+    display: block;
+    text-align: center;
+    margin: 0 15% 50px 15%;
+}
+
+.resto a:hover {
+    background-color: #fecc4c;
+    border-color: #f1a02a;
+    border-width: 3px;
+    color: #0a0a23;
+    }
+
+.resto img {
+    width: 100%;
+}
+
+.resto h4 {
+    text-align: center;
 }
