@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #151e33;
+    color: #fff;
+    font-family: sans-serif;
+    display: flex;  /* Con esto habilito el "flex" */
+    justify-content: center; /* Y con esto hago que se CENTRE horizontalmente */
+    align-items: center; /* Y este centa en la vertical */
+}
+
+a {
+    color: #f089a3;
+    text-decoration: none;
+}
+
+/* Create */
+
+    .create {
+        width: 100%;
+        max-width: 785px;
+        min-width: 320px;
+        border-radius: 15px;
+        background-color: #1b263e;
+        padding: 3rem; 
+        }
+
+
+/* Login */
+
+.login{
+    text-align: right;
+    font-size: 16px;
+}
+
+/* Content */
+
+.content {
+    width: 65%;
+    margin: 3rem auto;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 26px;
+}
+
+.content p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 3rem;
+}
+
+/* Form */
+
+.form label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.form input {
+    display: block;
+    border: none;
+    width: 100%;
+}
+
+.form input[type="text"], 
+.form input[type="email"], 
+.form input[type="password"] {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #495e8d;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 18px;
+}
+
+.form input[type="submit"] {
+    border-radius: 5px;
+    background-color: #e3627f;
+    color: #fff;
+    font-weight: bold;
+    padding: 1.5rem 3rem;
+    cursor: pointer;
+}
+
+/* Legal */
+
+.legal {
+    border-radius: 16px;
+    background-color: #202e4e;
+    padding: 1.5rem;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.legal p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #8f9ab2;
+}
