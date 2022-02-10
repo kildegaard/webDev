@@ -7,5 +7,3 @@ Distribución de cosas:
 - `practicas-Argentina-Programa`: acá pretendo poner todo lo que voy creando dentro del marco del curso **Desarrollador Web Full Stack Jr** de `Argentina Programa`.
 
 - `practicas-Wmedia`: acá voy a incluir todos los desafíos del curso online en YouTube por [Juan Andrés Núñez](https://www.youtube.com/playlist?list=PLM-Y_YQmMEqDcV8cJcosRsqJJNrhlpwzb)
-
-asdf
